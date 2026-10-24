@@ -1,0 +1,20 @@
+proxies:
+- {name: 🇮🇹IT-202.50.253.36-00, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=}
+- {name: 🏁RELAY-104.21.41.92-01, server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, tls: true, ws-headers: {Host: guanwang.awsno.com}}
+- {name: 🇩🇪DE-185.220.100.168-02, server: 185.220.100.168, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, ws-path: "h=%2Fassignment", skip-cert-verify: true}
+- {name: 🇯🇵JP-45.32.52.173-03, server: 45.32.52.173, port: 8886, type: trojan, password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437, sni: 45.32.52.173, skip-cert-verify: true}
+- {name: 🇰🇷KR-43.108.103.167-04, server: 43.108.103.167, port: 123, type: vmess, uuid: 35aa0fda-175a-4aec-c468-0231dee1a121, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: 45.32.52.173}}
+- {name: 🇩🇪DE-63.180.254.10-05, server: 63.180.254.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+- {name: 🇭🇰HK-219.77.96.182-06, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: false, ws-headers: {Host: v10.hdacd.com}}
+- {name: 🇳🇱NL-147.90.40.76-07, server: 7d0a2gz0-7a0c.aws-agent.net, port: 12103, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.40.76-08, server: 7d0a2gz0-7a0c.aws-agent.net, port: 10115, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.41.75-09, server: 7d0a2gz0-7a0c.aws-agent.net, port: 12107, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.41.76-10, server: 7d0a2gz0-7a0c.aws-agent.net, port: 12102, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.40.96-11, server: 63182sh8-4d7b.aws-agent.net, port: 10125, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.41.96-12, server: 63182sh8-4d7b.aws-agent.net, port: 10125, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.41.76-13, server: 7d0a2gz0-7a0c.aws-agent.net, port: 10135, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.40.95-14, server: 63182sh8-4d7b.aws-agent.net, port: 10155, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.40.96-15, server: 63182sh8-4d7b.aws-agent.net, port: 12122, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.41.76-16, server: 7d0a2gz0-7a0c.aws-agent.net, port: 12142, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🇳🇱NL-147.90.41.96-17, server: 63182sh8-4d7b.aws-agent.net, port: 11171, type: trojan, password: AA885B42-133C-3828-FB69-E45105C06092, sni: m.ctrip.com, skip-cert-verify: true}
+- {name: 🏁RELAY-192.0.2.1-18, server: 192.0.2.1, port: 1, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
